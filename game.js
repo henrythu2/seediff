@@ -113,6 +113,10 @@ class Game {
             const y = Math.random() * maxY;
             pig.style.left = `${x}px`;
             pig.style.top = `${y}px`;
+            const img = document.createElement('img');
+            img.src = 'pig.png';
+            img.alt = '猪八戒';
+            pig.appendChild(img);
             pig.addEventListener('click', () => this.handlePigClick(pig, i));
             this.gameArea.appendChild(pig);
             this.pigs.push({
