@@ -1,16 +1,16 @@
 const LEVELS = [
     {
-        bg: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce0?auto=format&fit=crop&w=1200&q=80',
+        bg: 'https://source.unsplash.com/9UY_vg8GBDE/1200x800',
         pigs: 10,
         time: 60
     },
     {
-        bg: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce0?auto=format&fit=crop&w=1200&q=80',
+        bg: 'https://source.unsplash.com/9UY_vg8GBDE/1200x800',
         pigs: 10,
         time: 50
     },
     {
-        bg: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce0?auto=format&fit=crop&w=1200&q=80',
+        bg: 'https://source.unsplash.com/9UY_vg8GBDE/1200x800',
         pigs: 10,
         time: 40
     }
