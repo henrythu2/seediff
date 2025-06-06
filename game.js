@@ -1,16 +1,16 @@
 const LEVELS = [
     {
-        bg: 'https://source.unsplash.com/9UY_vg8GBDE/1200x800',
+        bg: 'https://images.pexels.com/photos/1139543/pexels-photo-1139543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         pigs: 10,
         time: 60
     },
     {
-        bg: 'https://source.unsplash.com/9UY_vg8GBDE/1200x800',
+        bg: 'https://images.pexels.com/photos/1139543/pexels-photo-1139543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         pigs: 10,
         time: 50
     },
     {
-        bg: 'https://source.unsplash.com/9UY_vg8GBDE/1200x800',
+        bg: 'https://images.pexels.com/photos/1139543/pexels-photo-1139543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         pigs: 10,
         time: 40
     }
@@ -238,4 +238,4 @@ class Game {
 
 window.addEventListener('load', () => {
     new Game();
-}); // force update for background image cache busting
+});
