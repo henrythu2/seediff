@@ -1,16 +1,16 @@
 const LEVELS = [
     {
-        bg: 'bg.jpg',
+        bg: 'bg2.jpg',
         pigs: 10,
         time: 60
     },
     {
-        bg: 'bg.jpg',
+        bg: 'bg2.jpg',
         pigs: 10,
         time: 50
     },
     {
-        bg: 'bg.jpg',
+        bg: 'bg2.jpg',
         pigs: 10,
         time: 40
     }
@@ -114,7 +114,7 @@ class Game {
             pig.style.left = `${x}px`;
             pig.style.top = `${y}px`;
             const img = document.createElement('img');
-            img.src = 'pig.png';
+            img.src = 'pig2.png';
             img.alt = '猪八戒';
             pig.appendChild(img);
             pig.addEventListener('click', () => this.handlePigClick(pig, i));
