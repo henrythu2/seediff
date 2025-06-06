@@ -1,16 +1,16 @@
 const LEVELS = [
     {
-        bg: 'bg2.jpg',
+        bg: 'https://images.pexels.com/photos/1139541/pexels-photo-1139541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         pigs: 10,
         time: 60
     },
     {
-        bg: 'bg2.jpg',
+        bg: 'https://images.pexels.com/photos/1139541/pexels-photo-1139541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         pigs: 10,
         time: 50
     },
     {
-        bg: 'bg2.jpg',
+        bg: 'https://images.pexels.com/photos/1139541/pexels-photo-1139541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         pigs: 10,
         time: 40
     }
@@ -114,7 +114,7 @@ class Game {
             pig.style.left = `${x}px`;
             pig.style.top = `${y}px`;
             const img = document.createElement('img');
-            img.src = 'pig2.png';
+            img.src = 'data:image/png;base64,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';
             img.alt = '猪八戒';
             pig.appendChild(img);
             pig.addEventListener('click', () => this.handlePigClick(pig, i));
