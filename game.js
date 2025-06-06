@@ -238,4 +238,4 @@ class Game {
 
 window.addEventListener('load', () => {
     new Game();
-}); 
+}); // force update for background image cache busting
