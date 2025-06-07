@@ -1,16 +1,16 @@
 const LEVELS = [
     {
-        bg: 'https://images.pexels.com/photos/1139543/pexels-photo-1139543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        bg: 'https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_1280.jpg',
         pigs: 10,
         time: 60
     },
     {
-        bg: 'https://images.pexels.com/photos/1139543/pexels-photo-1139543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        bg: 'https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_1280.jpg',
         pigs: 10,
         time: 50
     },
     {
-        bg: 'https://images.pexels.com/photos/1139543/pexels-photo-1139543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        bg: 'https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_1280.jpg',
         pigs: 10,
         time: 40
     }
@@ -81,7 +81,7 @@ class Game {
         this.hintUsed = 0;
         this.levelDisplay.textContent = this.level + 1;
         this.timeDisplay.textContent = this.timeLeft;
-        this.gameArea.style.backgroundImage = `url('${lv.bg}')`;
+        // this.gameArea.style.backgroundImage = `url('${lv.bg}')`;
         this.startButton.style.display = 'none';
         this.restartButton.style.display = 'inline-block';
         this.nextLevelButton.style.display = 'none';
@@ -114,7 +114,7 @@ class Game {
             pig.style.left = `${x}px`;
             pig.style.top = `${y}px`;
             const img = document.createElement('img');
-            img.src = 'https://img.icons8.com/color/96/000000/pig.png';
+            img.src = 'https://cdn-icons-png.flaticon.com/512/3229/3229929.png';
             img.alt = '猪八戒';
             pig.appendChild(img);
             pig.addEventListener('click', () => this.handlePigClick(pig, i));
